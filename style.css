@@ -17,3 +17,8 @@ input[type=text] {
     padding-bottom: 10px;
     border: 1px solid rgb(211, 211, 211);
 }
+
+div {
+    display: block;
+    text-align: center;
+}
