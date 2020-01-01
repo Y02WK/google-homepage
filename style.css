@@ -15,4 +15,5 @@ input[type=text] {
     border-radius: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid rgb(211, 211, 211);
 }
