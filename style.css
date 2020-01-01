@@ -9,3 +9,10 @@ body {
     height: auto;
     width: 30%;
 }
+
+input[type=text] {
+    width: 33%;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
