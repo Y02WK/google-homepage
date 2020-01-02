@@ -75,7 +75,6 @@ body .rlist h2 a{
 }
 
 a:-webkit-any-link {
-    color: rgb(14, 14, 182);
     text-decoration: none;
 }
 
@@ -139,4 +138,56 @@ a:-webkit-any-link {
 #bar1 ul li a, #bar2 ul li a {
     font-weight: bold;
     font-size: 13px;
+}
+
+#pageno {
+    display: block;
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 25%;
+}
+
+#pageno ul li{
+    display: inline-block;
+    padding: 10px 6px;
+}
+
+#pageno ul li {
+    font-size: 13px;
+    color: rgb(68, 163, 218)
+}
+
+#pageno ul li:first-child {
+    color:black;
+}
+
+footer ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 35px;
+    background-color: rgb(243, 243, 243);
+    line-height: 35px;
+    overflow: hidden;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li:first-child {
+    margin-left: 145px;
+}
+
+footer ul li a {
+    color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 14px 11px;
+    text-decoration: none;
+    font-size: 14px;
 }
