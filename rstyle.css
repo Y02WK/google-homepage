@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #logo {
     width: 6%;
     vertical-align: middle; /* Aligns image to same plane as searchbox */
@@ -80,3 +84,29 @@ a:-webkit-any-link {
     color: rgb(136, 136, 136);
 }
 
+#related ul {
+    display: block;
+    margin-left: 130px;
+    width: 45%;
+}
+
+#related ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+#related ul li:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#related ul li:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#PAA {
+    font-size: 20px;
+}
