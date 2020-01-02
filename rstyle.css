@@ -88,6 +88,7 @@ a:-webkit-any-link {
     display: block;
     margin-left: 130px;
     width: 45%;
+    margin-bottom: 20px;
 }
 
 #related ul li {
@@ -95,6 +96,10 @@ a:-webkit-any-link {
     padding-bottom: 12px;
     padding-left: 15px;
     border: 1px solid rgb(211, 211, 211);
+}
+
+#related ul li a {
+    color:black;
 }
 
 #related ul li:first-child {
@@ -109,4 +114,29 @@ a:-webkit-any-link {
 
 #PAA {
     font-size: 20px;
+}
+
+#bottomrelated {
+    color: black;
+    padding-top: 10px;
+}
+
+#bar1 {
+    display: inline-block;
+    margin-left:145px;
+    margin-right: 20px;
+}
+
+#bar2 {
+    display: inline-block;
+}
+
+#bar1 ul li, #bar2 ul li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#bar1 ul li a, #bar2 ul li a {
+    font-weight: bold;
+    font-size: 13px;
 }
